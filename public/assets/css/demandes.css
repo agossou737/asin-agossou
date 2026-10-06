@@ -1,0 +1,10 @@
+/* Ajustements propres a l'application (par-dessus le theme). */
+.swal2-container { z-index: 20000; }
+.swal2-popup { font-family: inherit; }
+.swal-liste-erreurs { text-align: left; margin: 0; padding-left: 1.25rem; }
+.swal-liste-erreurs li { margin-bottom: .25rem; }
+
+#liste-demandes .motif-rejet { max-width: 340px; white-space: normal; }
+#liste-demandes .btn-action { white-space: nowrap; }
+.form-control.is-invalid ~ .invalid-feedback,
+.form-select.is-invalid ~ .invalid-feedback { display: block; }
